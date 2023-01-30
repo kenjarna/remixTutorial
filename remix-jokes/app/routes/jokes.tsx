@@ -55,6 +55,8 @@ export default function JokesRoute() {
       <main className="jokes-main">
         <div className="container">
           <div className="jokes-list">
+            <Link to="/jokes.rss">Jokes RSS Feed</Link>
+
             <Link to=".">Get a random joke</Link>
             <p>Here are a few more jokes to check out:</p>
             <ul>

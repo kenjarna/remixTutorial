@@ -23,6 +23,7 @@ export default function IndexRoute() {
           <ul>
             <li>
               <Link to="jokes">Read Jokes</Link>
+              <Link to="jokes.rss">Jokes RSS Feed</Link>
             </li>
           </ul>
         </nav>
